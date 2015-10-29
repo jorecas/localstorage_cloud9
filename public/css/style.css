@@ -1,0 +1,51 @@
+body
+{
+	background : url("../img/imagen.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+center{
+	margin-top: -20px;
+}
+
+#inactivo{
+	color:#C3C3C4;
+}
+#activo{
+	color:#000;
+}
+.imagen
+{
+	cursor: pointer;
+}
+.header 
+{
+	font: normal 40px "";
+	color: #FFF; 
+	margin: 0px auto;
+	margin-bottom: 40px;
+	text-align: center;
+	text-shadow: 3px 3px 4px rgb(0,20,1);
+	width: 70%;
+}
+#TB_tarea{
+	width: 70%;
+	height: 40px;
+	color: #000;
+	background: transparent;
+	border: 1px solid #435160;
+	margin-left: 200px;
+	margin-bottom: 15px;
+	text-align: center;
+	font-weight: bold;
+}
+.tarea{
+	border: 1px solid #C1C3D1;
+}
+.tarea:hover{
+ background:rgba(0,250,0,0.9);
+}
+#imprimir{
+	margin: 0 auto;
+	width: 70%;
+}
+
